@@ -20,7 +20,11 @@ if (a+b<=c or a+c<=b or c+b<=a)
 }
 else {
 S = sqrt(p*(p-a)*(p-b)*(p-c));
-std::cout<<"S = "<< S;
+std::cout<<"S = "<< S << "\n";
+}
+if ( a= b= c )
+{
+    std::cout<<"Треугольник равносторонний\n";
 }
     return 0;
 }
