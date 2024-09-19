@@ -4,8 +4,6 @@ using namespace std;
 int main() {
 int a;
 int b;
-int m;
-int n;
 int c;
 float S;
 float p;
